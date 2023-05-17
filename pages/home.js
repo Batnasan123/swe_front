@@ -5,6 +5,6 @@ const { Header, Footer, Sider, Content } = Layout;
 import { AuthContext } from "@/context/user.context";
 import Signin from "../Component/auth/sign-in";
 
-export default function Home() {
-  return <Signin />;
+export default function HomePage() {
+  return <div>Batnasan</div>;
 }
